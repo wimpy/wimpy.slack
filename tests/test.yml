@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  connection: local
+  vars:
+    wimpy_project_name: my-project
+    wimpy_release_version: 9da8s9fud8
+    wimpy_deployment_status: "Success"
+    wimpy_slack_channel: "#my-channel"
+    wimpy_slack_token: G922VJP24/D921DW937/3Ffe373sfhRE6y42Fg3rvf4GlK
+  roles:
+    - wimpy.slack

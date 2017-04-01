@@ -1,0 +1,10 @@
+---
+
+- name: "Send notification message via Slack"
+  slack:
+    token: "{{ wimpy_slack_token }}"
+    msg: "{{ wimpy_slack_message }}"
+    color: "{{ wimpy_slack_color }}"
+    channel: "{{ wimpy_slack_channel }}"
+    username: "{{ wimpy_slack_username }}"
+    icon_url: "{{ wimpy_slack_icon | default(omit) }}"
