@@ -2,4 +2,4 @@
 
 wimpy_slack_username: "Wimpy"
 wimpy_slack_color: "{{ 'good' if wimpy_deployment_status == 'success' else 'danger' }}"
-wimpy_slack_message: "{{ 'Deployment of ' ~ wimpy_project_name ~ '(' ~ wimpy_release_version ~ ') has been successful' }}' if wimpy_deployment_status == 'success' else 'Deployment of ' ~ wimpy_project_name ~ '(' ~ wimpy_release_version ~ ') has failed' }}"
+wimpy_slack_message: "{{ wimpy_project_name ~ ': ' ~ wimpy_release_version ~ ' has been deployed successfully' }}' if wimpy_deployment_status == 'success' else wimpy_project_name ~ ': ' ~ wimpy_release_version ~ ' deploy has failed' }}"
