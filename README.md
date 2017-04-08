@@ -1,6 +1,5 @@
-# Wimpy Build
-Ansible playbook to build your application using Docker Compose, so you can define which build tool to use.
-It will then create a docker image with your application, and finally push that image to a Docker Registry.
+# Wimpy Slack
+Ansible playbook to build notify a Slack channel when you deploy your application using Wimpy.
 
 ## Required Parameters
 The required parameters are
