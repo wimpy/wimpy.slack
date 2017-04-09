@@ -1,4 +1,4 @@
-# Wimpy Slack
+# Wimpy Slack [![Build Status](https://travis-ci.org/wimpy/wimpy.slack.svg?branch=master)](https://travis-ci.org/wimpy/wimpy.slack)
 Ansible role to notify a Slack channel when you deploy your application using Wimpy.
 
 ## Required Parameters
